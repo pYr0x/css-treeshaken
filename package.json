@@ -1,0 +1,27 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node deps-build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "can": "^5.2.2",
+    "steal": "^2.0.0"
+  },
+  "steal": {
+    "plugins": [
+      "steal-css"
+    ]
+  },
+  "devDependencies": {
+    "steal-css": "^1.3.2",
+    "steal-tools": "^2.0.1"
+  }
+}
